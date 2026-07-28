@@ -6,7 +6,7 @@
 This project generates tutorial videos of square and sawtooth waves in both time and frequency domains, complete with sound. Its purpose is to familiarize students with:
 
 * The relationship between time-domain and frequency-domain waveform representations.
-* the experience of seeing, as well as hearing, an increase in the number of generated Fourier terms.
+* The experience of seeing, as well as hearing, an increase in the number of generated Fourier terms.
 * Some math background on the above topics.
 * How to generate tutorial videos with sound in Python.
 
@@ -23,6 +23,22 @@ Then, to generate the four tutorial videos and place them in the directory "rend
 The Fourier series expressions for the square and sawtooth waveforms are [Here](./Equations.pdf).
 
 Until now I've only ever seen an animation that increased the number of Fourier terms as a visual experience. These videos add the dimension of sound, and the sound of increasing higher harmonics is not to be missed.
+
+* Installation:
+
+Download a release ZIP file.
+Move the unpacked contents into a dedicated directory.
+Move into that directory.
+Take thee steps:
+
+`$ pip install -r requirements.txt`
+`$ sudo apt install ffmpeg # not usually necessary`
+
+Then, to generate the videos:
+
+`$ python3 ./square_sawtooth_wave_generator.py`
+
+After the program runs, tne directory "renders" will contain four videos, each with sound, of square and sawtooth wave generation with a progressively increasing number of Fourier terms.
 
 * Vibe coding
 
