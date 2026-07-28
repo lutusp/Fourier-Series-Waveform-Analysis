@@ -15,6 +15,7 @@ The core algorithm relies on a Fourier expansion to generate square-wave and saw
 The program "square_sawtooth_wave_generator.py" created four videos when run. Just take these steps:
 
 * `$ pip install -r requirements.txt`
+
 * `$ sudo apt install ffmpeg # usually not necessary`
 
 Then, to generate the four tutorial videos and place them in the directory "renders":
@@ -31,12 +32,13 @@ Move the unpacked contents into a dedicated directory.
 Move into that directory.
 Take thee steps:
 
-`$ pip install -r requirements.txt`
-`$ sudo apt install ffmpeg # not usually necessary`
+* `$ pip install -r requirements.txt`
+
+* `$ sudo apt install ffmpeg # not usually necessary`
 
 Then, to generate the videos:
 
-`$ python3 ./square_sawtooth_wave_generator.py`
+* `$ python3 ./square_sawtooth_wave_generator.py`
 
 After the program runs, tne directory "renders" will contain four videos, each with sound, of square and sawtooth wave generation with a progressively increasing number of Fourier terms.
 
