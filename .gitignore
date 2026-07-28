@@ -1,0 +1,6 @@
+renders/*
+!renders/.gitkeep
+*.code-workplace
+__pycache__/*
+!.claude/**
+!.vscode/**

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(ffprobe -v quiet -show_format -show_streams /netbackup/data/OpenCode_VSCode_projects/square_triangle_wave_animation/renders/square_wave.mp4)",
+      "Bash(ffprobe -v quiet -show_format -show_streams /netbackup/data/OpenCode_VSCode_projects/square_triangle_wave_animation/renders/triangle_wave.mp4)"
+    ]
+  }
+}
