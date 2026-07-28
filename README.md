@@ -33,7 +33,7 @@ Move the unpacked contents into a dedicated directory.
 
 Move into that directory.
 
-Take thee steps:
+Take these steps:
 
 * `$ pip install -r requirements.txt`
 
