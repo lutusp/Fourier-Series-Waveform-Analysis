@@ -28,8 +28,11 @@ Until now I've only ever seen an animation that increased the number of Fourier 
 * Installation:
 
 Download a release ZIP file.
+
 Move the unpacked contents into a dedicated directory.
+
 Move into that directory.
+
 Take thee steps:
 
 * `$ pip install -r requirements.txt`
