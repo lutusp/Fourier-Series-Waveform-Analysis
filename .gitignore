@@ -1,6 +1,6 @@
 renders/*
 !renders/.gitkeep
-*.code-workplace
+*.code-workspace
 __pycache__/*
 !.claude/**
 !.vscode/**
