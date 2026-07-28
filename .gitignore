@@ -4,3 +4,5 @@ renders/*
 __pycache__/*
 !.claude/**
 !.vscode/**
+Equations.docx
+
